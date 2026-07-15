@@ -52,7 +52,7 @@ Plan complete trips using AI with **Flights ✈️ • Hotels 🏨 • Itinerari
 
 ### 📸 Project Preview
 <p align="center">
-<img src="./imagess/Tripmake.png" width="900" alt="TripMaKe AI Home"/>
+<img src="./images/Tripmake.png" width="900" alt="TripMaKe AI Home"/>
 </p>
 <br>
 
@@ -60,14 +60,14 @@ Plan complete trips using AI with **Flights ✈️ • Hotels 🏨 • Itinerari
 
 ### Chat Interface  ✈️
 <p align="center">
-<img src="./imagess/Chat_Interface.png" width="900" alt="TripMaKe AI Outcome"/>
+<img src="./images/Chat_Interface.png" width="900" alt="TripMaKe AI Outcome"/>
 </p>
 
 ---
 
 ### 💬 Travel Planner Interface
 <p align="center">
-<img src="./imagess/Plan.png" width="900" alt="Trip Planner"/>
+<img src="./images/Plan.png" width="900" alt="Trip Planner"/>
 </p>
 
 ---
