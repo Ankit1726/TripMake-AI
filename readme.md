@@ -1,8 +1,8 @@
 <div align="center">
 
-# ✈️ TripMaKe AI
+# ✈️ ***TripMaKe AI***
 
-### 🤖 Multi-Agent AI Travel Planner powered by LangGraph
+### 🤖 ***Multi-Agent AI Travel Planner powered by LangGraph***
 
 Plan complete trips using AI with **Flights ✈️ • Hotels 🏨 • Itineraries 🗺️ • Multi-Agent Workflows**
 
@@ -31,11 +31,11 @@ Plan complete trips using AI with **Flights ✈️ • Hotels 🏨 • Itinerari
 
 ### 🌍 About TripMaKe AI
 
-TripMaKe AI is an **AI-powered Multi-Agent Travel Planner** that transforms natural language travel requests into complete travel plans.
+- ***TripMaKe AI is an **AI-powered Multi-Agent Travel Planner** that transforms natural language travel requests into complete travel plans.***
 
-Instead of switching between multiple websites for flights, hotels, and itineraries, users simply describe their trip in plain English, and the AI coordinates multiple specialized agents to generate a personalized travel experience.
+- ***Instead of switching between multiple websites for flights, hotels, and itineraries, users simply describe their trip in plain English, and the AI coordinates multiple specialized agents to generate a personalized travel experience.***
 
-The project demonstrates how **LangGraph** can orchestrate multiple AI agents working together while maintaining conversation state with PostgreSQL.
+- ***The project demonstrates how **LangGraph** can orchestrate multiple AI agents working together while maintaining conversation state with PostgreSQL.***
 
 ---
 
