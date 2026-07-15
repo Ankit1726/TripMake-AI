@@ -42,24 +42,14 @@ Plan complete trips using AI with **Flights ✈️ • Hotels 🏨 • Itinerari
 ### ✨ Live Demo
 
 ### 🌐 Web App
- - 👉 **YOUR_LIVE_DEMO**
-
+   - 
 ---
 
 ### 📸 Project Preview
-
-## Home Page
+  - 
 
 <p align="center">
 <img src="preview.png" width="900">
-</p>
-
----
-
-## Multi-Agent Workflow
-
-<p align="center">
-<img src="workflow.png" width="900">
 </p>
 
 ---
