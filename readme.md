@@ -152,9 +152,9 @@ TripMaKe-AI
 │   ├── database/
 │   │     └── db.py
 │   ├── tools/
-│   │     ├── flight.py
-│   │     ├── hotel.py
-│   │     └── search.py
+│         ├── flight.py
+│         ├── hotel.py
+│         └── search.py
 │
 ├── static/
 │   ├── css
