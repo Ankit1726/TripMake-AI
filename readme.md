@@ -1,8 +1,8 @@
 <div align="center">
 
-# ✈️ TripMaKe AI
+# ✈️ ***TripMaKe AI***
 
-### 🤖 Multi-Agent AI Travel Planner powered by LangGraph
+### 🤖 ***Multi-Agent AI Travel Planner powered by LangGraph***
 
 Plan complete trips using AI with **Flights ✈️ • Hotels 🏨 • Itineraries 🗺️ • Multi-Agent Workflows**
 
@@ -18,42 +18,35 @@ Plan complete trips using AI with **Flights ✈️ • Hotels 🏨 • Itinerari
 <img src="https://img.shields.io/badge/PostgreSQL-Database-blue?style=for-the-badge&logo=postgresql"/>
 <img src="https://img.shields.io/badge/Groq-LLM-purple?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Open_Source-❤-red?style=for-the-badge"/>
-
 </p>
 
 <p align="center">
-
 <a href="Preview">
 <img src="">
 </a>
-
 </p>
-
 </div>
 
 ---
 
-# 🌍 About TripMaKe AI
+### 🌍 About TripMaKe AI
 
-TripMaKe AI is an **AI-powered Multi-Agent Travel Planner** that transforms natural language travel requests into complete travel plans.
+- ***TripMaKe AI is an **AI-powered Multi-Agent Travel Planner** that transforms natural language travel requests into complete travel plans.***
 
-Instead of switching between multiple websites for flights, hotels, and itineraries, users simply describe their trip in plain English, and the AI coordinates multiple specialized agents to generate a personalized travel experience.
+- ***Instead of switching between multiple websites for flights, hotels, and itineraries, users simply describe their trip in plain English, and the AI coordinates multiple specialized agents to generate a personalized travel experience.***
 
-The project demonstrates how **LangGraph** can orchestrate multiple AI agents working together while maintaining conversation state with PostgreSQL.
+- ***The project demonstrates how **LangGraph** can orchestrate multiple AI agents working together while maintaining conversation state with PostgreSQL.***
 
 ---
 
-# ✨ Live Demo
+### ✨ Live Demo
 
 ### 🌐 Web App
-
-👉 **YOUR_LIVE_DEMO**
-
+   - 
 ---
 
-# 📸 Project Preview
-
-## Home Page
+### 📸 Project Preview
+  - 
 
 <p align="center">
 <img src="preview.png" width="900">
@@ -61,41 +54,19 @@ The project demonstrates how **LangGraph** can orchestrate multiple AI agents wo
 
 ---
 
-## Multi-Agent Workflow
+### 🎯 Features
+- ✈️ Flight research using AviationStack
+- 🏨 Hotel suggestions using Tavily search
+- 🧠 Multi-agent orchestration with LangGraph
+- 📝 Structured travel itinerary generation
+- 🌐 FastAPI backend with a simple web interface
+- 💾 Conversation state persistence using PostgreSQL
+- ⚡ LLM-powered responses with Groq
 
-<p align="center">
-<img src="workflow.png" width="900">
-</p>
-
----
-
-# 🎯 Features
-
-✅ Natural Language Trip Planning
-
-✅ Flight Search Agent
-
-✅ Hotel Recommendation Agent
-
-✅ Smart Daily Itinerary Generation
-
-✅ Multi-Agent Orchestration using LangGraph
-
-✅ PostgreSQL Conversation Memory
-
-✅ FastAPI Backend
-
-✅ Responsive Web Interface
-
-✅ Groq LLM Integration
-
-✅ Tavily Web Search
-
-✅ AviationStack Flight API
 
 ---
 
-# ⚡ Example Prompt
+### ⚡ Example Prompt
 
 ```
 Plan a 5-day trip to Bali for two people.
@@ -113,7 +84,7 @@ Include:
 
 ---
 
-# 🤖 Multi-Agent Architecture
+### 🤖 Multi-Agent Architecture
 
 ```
                 User Request
@@ -153,16 +124,19 @@ Include:
 
 ---
 
-# 📂 Project Structure
+### 📂 Project Structure
 
 ```text
 TripMaKe-AI
 │
-├── app.py
-├── backend.py
-├── requirements.txt
-├── .env
-│
+├── src/
+|   ├── backend.py
+|   ├──  database/
+|         ├── db.py
+|   ├── tools/
+|       ├── flight.py
+|       ├── hotel.py
+|       └── search.p
 ├── static/
 │   ├── css
 │   ├── js
@@ -170,18 +144,15 @@ TripMaKe-AI
 │
 ├── templates/
 │   └── index.html
-│
-├── tools/
-│   ├── flight.py
-│   ├── hotel.py
-│   └── search.py
-│
+├── requirements.txt
+├── .env
+├──  app.py
 └── README.md
 ```
 
 ---
 
-# 📡 API Endpoint
+### 📡 API Endpoint
 
 ## Health Check
 
@@ -189,7 +160,7 @@ TripMaKe-AI
 GET /health
 ```
 
-## Generate Travel Plan
+### Generate Travel Plan
 
 ```
 POST /api/travel
@@ -202,77 +173,26 @@ Example
   "message": "Plan a 4-day trip to Tokyo under $1200"
 }
 ```
-
 ---
 
-# 🔄 Workflow
-
-```
-User Request
-
-      │
-
-      ▼
-
-LangGraph Router
-
-      │
-
- ┌────┼────┐
-
- ▼    ▼    ▼
-
-Flights
-
-Hotels
-
-Itinerary
-
-      │
-
-      ▼
-
-Travel Response Generator
-
-      │
-
-      ▼
-
-Final Travel Plan
-```
-
----
-
-# 🌟 Future Improvements
+### 🌟 Future Improvements
 
 - Flight Booking Integration
-
 - Google Maps Integration
-
-- Currency Converter
-
 - Expense Tracking
-
 - AI Budget Optimizer
-
 - Weather Forecast
-
 - Visa Information
-
-- PDF Trip Export
-
 - Email Trip Planner
-
 - Voice Assistant
 
 ---
 
-# 🤝 Contributing
+### 🤝 Contributing
 
-Contributions are always welcome!
-
-If you'd like to improve TripMaKe AI:
-
+- Contributions are always welcome..!
+  
+- If you'd like to improve TripMaKe AI:
 ```
 Fork Repository
 
@@ -287,41 +207,25 @@ Open Pull Request
 
 ---
 
-# 👨‍💻 Developer
+### 👨‍💻 Developer
 
 <div align="center">
 
-## Ankit Gupta
+## Ankit Gupta ✈️
 
-### AI Engineer • Python Developer • GenAI Developer
+### AI Engineer • AI Backend Developer • GenAI & Agentic Developer
 
 Building AI-powered applications using
 
 **LangGraph • LangChain • FastAPI • PyTorch • Machine Learning • LLMs**
-
-<p>
-
-<a href="https://github.com/YOUR_USERNAME">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github">
-</a>
-
-<a href="https://linkedin.com/in/YOUR_LINKEDIN">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin">
-</a>
-
-</p>
-
 </div>
 
 ---
 
-# ⭐ Support
-
-If you found this project helpful,
-
-please consider giving it a ⭐ on GitHub.
-
-It motivates me to build more AI-powered open-source projects.
+### ⭐ Support
+- If you found this project helpful,
+- please consider giving it a ⭐ on GitHub.
+- It motivates me to build more AI-powered open-source projects.
 
 ---
 
