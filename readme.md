@@ -28,12 +28,11 @@ Plan complete trips using AI with **Flights ✈️ • Hotels 🏨 • Itinerari
 </a>
 
 </p>
-
 </div>
 
 ---
 
-# 🌍 About TripMaKe AI
+### 🌍 About TripMaKe AI
 
 TripMaKe AI is an **AI-powered Multi-Agent Travel Planner** that transforms natural language travel requests into complete travel plans.
 
@@ -43,15 +42,14 @@ The project demonstrates how **LangGraph** can orchestrate multiple AI agents wo
 
 ---
 
-# ✨ Live Demo
+### ✨ Live Demo
 
 ### 🌐 Web App
-
-👉 **YOUR_LIVE_DEMO**
+ - 👉 **YOUR_LIVE_DEMO**
 
 ---
 
-# 📸 Project Preview
+### 📸 Project Preview
 
 ## Home Page
 
@@ -69,33 +67,19 @@ The project demonstrates how **LangGraph** can orchestrate multiple AI agents wo
 
 ---
 
-# 🎯 Features
+### 🎯 Features
+- ✈️ Flight research using AviationStack
+- 🏨 Hotel suggestions using Tavily search
+- 🧠 Multi-agent orchestration with LangGraph
+- 📝 Structured travel itinerary generation
+- 🌐 FastAPI backend with a simple web interface
+- 💾 Conversation state persistence using PostgreSQL
+-⚡ LLM-powered responses with Groq
 
-✅ Natural Language Trip Planning
-
-✅ Flight Search Agent
-
-✅ Hotel Recommendation Agent
-
-✅ Smart Daily Itinerary Generation
-
-✅ Multi-Agent Orchestration using LangGraph
-
-✅ PostgreSQL Conversation Memory
-
-✅ FastAPI Backend
-
-✅ Responsive Web Interface
-
-✅ Groq LLM Integration
-
-✅ Tavily Web Search
-
-✅ AviationStack Flight API
 
 ---
 
-# ⚡ Example Prompt
+### ⚡ Example Prompt
 
 ```
 Plan a 5-day trip to Bali for two people.
@@ -113,7 +97,7 @@ Include:
 
 ---
 
-# 🤖 Multi-Agent Architecture
+### 🤖 Multi-Agent Architecture
 
 ```
                 User Request
@@ -153,7 +137,7 @@ Include:
 
 ---
 
-# 📂 Project Structure
+### 📂 Project Structure
 
 ```text
 TripMaKe-AI
@@ -189,7 +173,7 @@ TripMaKe-AI
 GET /health
 ```
 
-## Generate Travel Plan
+### Generate Travel Plan
 
 ```
 POST /api/travel
@@ -205,7 +189,7 @@ Example
 
 ---
 
-# 🔄 Workflow
+### 🔄 Workflow
 
 ```
 User Request
@@ -243,10 +227,10 @@ Final Travel Plan
 
 ---
 
-# 🌟 Future Improvements
+### 🌟 Future Improvements
 
 - Flight Booking Integration
-
+  
 - Google Maps Integration
 
 - Currency Converter
@@ -267,9 +251,9 @@ Final Travel Plan
 
 ---
 
-# 🤝 Contributing
+### 🤝 Contributing
 
-Contributions are always welcome!
+Contributions are always welcome..!
 
 If you'd like to improve TripMaKe AI:
 
@@ -287,13 +271,13 @@ Open Pull Request
 
 ---
 
-# 👨‍💻 Developer
+### 👨‍💻 Developer
 
 <div align="center">
 
-## Ankit Gupta
+## Ankit Gupta ✈️
 
-### AI Engineer • Python Developer • GenAI Developer
+### AI Engineer • AI Backend Developer • GenAI & Agentic Developer
 
 Building AI-powered applications using
 
@@ -315,7 +299,7 @@ Building AI-powered applications using
 
 ---
 
-# ⭐ Support
+### ⭐ Support
 
 If you found this project helpful,
 
