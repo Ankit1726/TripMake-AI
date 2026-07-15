@@ -1,4 +1,16 @@
-from src.backend import run_travel_agent
+from backend import run_travel_agent
+from tools.tavily_tool import tavily_search
+from tools.flight_tool import search_flights
+
+# Case:1
+res = tavily_search("Best hotels in India")
+print(res)
+
+# Case:2
+res = search_flights("Plan a 7 days Nepal trip from Bangladesh")
+print(res)
+
+#Case:3
 user_input = input("Enter travel request: ")
 
 response = run_travel_agent(
