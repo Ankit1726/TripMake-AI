@@ -18,13 +18,17 @@ Plan complete trips using AI with **Flights ✈️ • Hotels 🏨 • Itinerari
 <img src="https://img.shields.io/badge/PostgreSQL-Database-blue?style=for-the-badge&logo=postgresql"/>
 <img src="https://img.shields.io/badge/Groq-LLM-purple?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Open_Source-❤-red?style=for-the-badge"/>
+
 </p>
 
 <p align="center">
-<a href="Preview">
-<img src="">
+
+<a href="https://tripmake-ai.onrender.com" target="_blank">
+<img src="https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20Now-success?style=for-the-badge">
 </a>
+
 </p>
+
 </div>
 
 ---
@@ -42,19 +46,43 @@ Plan complete trips using AI with **Flights ✈️ • Hotels 🏨 • Itinerari
 ### ✨ Live Demo
 
 ### 🌐 Web App
-   - 
+
+> 🚀 **Live Demo:** https://tripmake-ai.onrender.com
+
 ---
 
 ### 📸 Project Preview
-  - 
+
+> Replace the image paths below with your screenshots after uploading them to your repository (for example, inside an `assets/` folder).
+
+<br>
+
+### 🏠 Home Page
 
 <p align="center">
-<img src="preview.png" width="900">
+<img src="./assets/home.png" width="900" alt="TripMaKe AI Home"/>
+</p>
+
+---
+
+### 💬 Travel Planner Interface
+
+<p align="center">
+<img src="./assets/chat.png" width="900" alt="Trip Planner"/>
+</p>
+
+---
+
+### ✈️ Generated Travel Plan
+
+<p align="center">
+<img src="./assets/result.png" width="900" alt="Generated Itinerary"/>
 </p>
 
 ---
 
 ### 🎯 Features
+
 - ✈️ Flight research using AviationStack
 - 🏨 Hotel suggestions using Tavily search
 - 🧠 Multi-agent orchestration with LangGraph
@@ -63,12 +91,11 @@ Plan complete trips using AI with **Flights ✈️ • Hotels 🏨 • Itinerari
 - 💾 Conversation state persistence using PostgreSQL
 - ⚡ LLM-powered responses with Groq
 
-
 ---
 
 ### ⚡ Example Prompt
 
-```
+```text
 Plan a 5-day trip to Bali for two people.
 
 Budget: $1800
@@ -86,7 +113,7 @@ Include:
 
 ### 🤖 Multi-Agent Architecture
 
-```
+```text
                 User Request
                       │
                       ▼
@@ -109,18 +136,18 @@ Include:
 
 # 🛠 Tech Stack
 
-| Technology    | Purpose              |
-| ------------- | -------------------- |
-| Python        | Backend              |
-| FastAPI       | REST API             |
-| LangGraph     | Multi-Agent Workflow |
-| LangChain     | LLM Framework        |
-| Groq          | Language Model       |
-| PostgreSQL    | Conversation Memory  |
-| Tavily        | Web Search           |
-| AviationStack | Flight Search        |
-| HTML/CSS/JS   | Frontend             |
-| Jinja2        | Templates            |
+| Technology | Purpose |
+|-------------|----------|
+| Python | Backend |
+| FastAPI | REST API |
+| LangGraph | Multi-Agent Workflow |
+| LangChain | LLM Framework |
+| Groq | Language Model |
+| PostgreSQL | Conversation Memory |
+| Tavily | Web Search |
+| AviationStack | Flight Search |
+| HTML/CSS/JS | Frontend |
+| Jinja2 | Templates |
 
 ---
 
@@ -130,13 +157,14 @@ Include:
 TripMaKe-AI
 │
 ├── src/
-|   ├── backend.py
-|   ├──  database/
-|         ├── db.py
-|   ├── tools/
-|       ├── flight.py
-|       ├── hotel.py
-|       └── search.p
+│   ├── backend.py
+│   ├── database/
+│   │     └── db.py
+│   ├── tools/
+│   │     ├── flight.py
+│   │     ├── hotel.py
+│   │     └── search.py
+│
 ├── static/
 │   ├── css
 │   ├── js
@@ -144,9 +172,10 @@ TripMaKe-AI
 │
 ├── templates/
 │   └── index.html
+│
 ├── requirements.txt
 ├── .env
-├──  app.py
+├── app.py
 └── README.md
 ```
 
@@ -156,13 +185,13 @@ TripMaKe-AI
 
 ## Health Check
 
-```
+```http
 GET /health
 ```
 
 ### Generate Travel Plan
 
-```
+```http
 POST /api/travel
 ```
 
@@ -173,6 +202,7 @@ Example
   "message": "Plan a 4-day trip to Tokyo under $1200"
 }
 ```
+
 ---
 
 ### 🌟 Future Improvements
@@ -191,9 +221,10 @@ Example
 ### 🤝 Contributing
 
 - Contributions are always welcome..!
-  
+
 - If you'd like to improve TripMaKe AI:
-```
+
+```text
 Fork Repository
 
 Create Feature Branch
@@ -218,11 +249,13 @@ Open Pull Request
 Building AI-powered applications using
 
 **LangGraph • LangChain • FastAPI • PyTorch • Machine Learning • LLMs**
+
 </div>
 
 ---
 
 ### ⭐ Support
+
 - If you found this project helpful,
 - please consider giving it a ⭐ on GitHub.
 - It motivates me to build more AI-powered open-source projects.
