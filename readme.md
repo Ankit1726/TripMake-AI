@@ -22,7 +22,6 @@ Plan complete trips using AI with **Flights ✈️ • Hotels 🏨 • Itinerari
 </p>
 
 <p align="center">
-
 <a href="Preview">
 <img src="">
 </a>
@@ -282,30 +281,14 @@ Open Pull Request
 Building AI-powered applications using
 
 **LangGraph • LangChain • FastAPI • PyTorch • Machine Learning • LLMs**
-
-<p>
-
-<a href="https://github.com/YOUR_USERNAME">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github">
-</a>
-
-<a href="https://linkedin.com/in/YOUR_LINKEDIN">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin">
-</a>
-
-</p>
-
 </div>
 
 ---
 
 ### ⭐ Support
-
-If you found this project helpful,
-
-please consider giving it a ⭐ on GitHub.
-
-It motivates me to build more AI-powered open-source projects.
+- If you found this project helpful,
+- please consider giving it a ⭐ on GitHub.
+- It motivates me to build more AI-powered open-source projects.
 
 ---
 
