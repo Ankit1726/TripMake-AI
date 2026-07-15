@@ -37,6 +37,7 @@ class TravelState(TypedDict):
     messages:Annotated[list[AnyMessage],operator.add]
     user_query:str
     flight_results:str
+    hotel_results: str
     itinerary:str 
     llm_calls:int 
 
@@ -54,7 +55,7 @@ def flight_agent(state:TravelState):
 
 ## Hotel Agent 
 def hotel_agent(state:TravelState):
-    query = f"best hotels for {state["user_query"]}"
+    query = f"best hotels for {state['user_query']}"
     hotel_results = tavily_search(query)
 
     return{
@@ -149,9 +150,9 @@ graph.add_edge("final_agent",END)
 DB_URL = get_database_url()
 
 _conn = psycopg.connect(
-     DB_URL,
-     autocommit=True,
-     row_factory=dict_row
+    DB_URL,
+    autocommit=True,
+    row_factory=dict_row
 )
 
 checkpointer = PostgresSaver(_conn)
