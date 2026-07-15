@@ -18,14 +18,12 @@ Plan complete trips using AI with **Flights ✈️ • Hotels 🏨 • Itinerari
 <img src="https://img.shields.io/badge/PostgreSQL-Database-blue?style=for-the-badge&logo=postgresql"/>
 <img src="https://img.shields.io/badge/Groq-LLM-purple?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Open_Source-❤-red?style=for-the-badge"/>
-
 </p>
 
 <p align="center">
 <a href="Preview">
 <img src="">
 </a>
-
 </p>
 </div>
 
@@ -73,7 +71,7 @@ The project demonstrates how **LangGraph** can orchestrate multiple AI agents wo
 - 📝 Structured travel itinerary generation
 - 🌐 FastAPI backend with a simple web interface
 - 💾 Conversation state persistence using PostgreSQL
--⚡ LLM-powered responses with Groq
+- ⚡ LLM-powered responses with Groq
 
 
 ---
@@ -141,11 +139,14 @@ Include:
 ```text
 TripMaKe-AI
 │
-├── app.py
-├── backend.py
-├── requirements.txt
-├── .env
-│
+├── src/
+|   ├── backend.py
+|   ├──  database/
+|         ├── db.py
+|   ├── tools/
+|       ├── flight.py
+|       ├── hotel.py
+|       └── search.p
 ├── static/
 │   ├── css
 │   ├── js
@@ -153,18 +154,15 @@ TripMaKe-AI
 │
 ├── templates/
 │   └── index.html
-│
-├── tools/
-│   ├── flight.py
-│   ├── hotel.py
-│   └── search.py
-│
+├── requirements.txt
+├── .env
+├──  app.py
 └── README.md
 ```
 
 ---
 
-# 📡 API Endpoint
+### 📡 API Endpoint
 
 ## Health Check
 
@@ -185,77 +183,26 @@ Example
   "message": "Plan a 4-day trip to Tokyo under $1200"
 }
 ```
-
----
-
-### 🔄 Workflow
-
-```
-User Request
-
-      │
-
-      ▼
-
-LangGraph Router
-
-      │
-
- ┌────┼────┐
-
- ▼    ▼    ▼
-
-Flights
-
-Hotels
-
-Itinerary
-
-      │
-
-      ▼
-
-Travel Response Generator
-
-      │
-
-      ▼
-
-Final Travel Plan
-```
-
 ---
 
 ### 🌟 Future Improvements
 
 - Flight Booking Integration
-  
 - Google Maps Integration
-
-- Currency Converter
-
 - Expense Tracking
-
 - AI Budget Optimizer
-
 - Weather Forecast
-
 - Visa Information
-
-- PDF Trip Export
-
 - Email Trip Planner
-
 - Voice Assistant
 
 ---
 
 ### 🤝 Contributing
 
-Contributions are always welcome..!
-
-If you'd like to improve TripMaKe AI:
-
+- Contributions are always welcome..!
+  
+- If you'd like to improve TripMaKe AI:
 ```
 Fork Repository
 
