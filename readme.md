@@ -46,37 +46,28 @@ Plan complete trips using AI with **Flights ✈️ • Hotels 🏨 • Itinerari
 ### ✨ Live Demo
 
 ### 🌐 Web App
-
-> 🚀 **Live Demo:** https://tripmake-ai.onrender.com
+-   **Live Demo✈️:** [TripMaKe AI](https://tripmake-ai.onrender.com)
 
 ---
 
 ### 📸 Project Preview
-
-> Replace the image paths below with your screenshots after uploading them to your repository (for example, inside an `assets/` folder).
-
+<p align="center">
+<img src="./images/Tripmake.png" width="900" alt="TripMaKe AI Home"/>
+</p>
 <br>
 
-### 🏠 Home Page
+---
 
+### Chat Interface  ✈️
 <p align="center">
-<img src="./assets/home.png" width="900" alt="TripMaKe AI Home"/>
+<img src="./images/Chat_Interface.png" width="900" alt="TripMaKe AI Outcome"/>
 </p>
 
 ---
 
 ### 💬 Travel Planner Interface
-
 <p align="center">
-<img src="./assets/chat.png" width="900" alt="Trip Planner"/>
-</p>
-
----
-
-### ✈️ Generated Travel Plan
-
-<p align="center">
-<img src="./assets/result.png" width="900" alt="Generated Itinerary"/>
+<img src="./images/Plan.png" width="900" alt="Trip Planner"/>
 </p>
 
 ---
@@ -161,9 +152,9 @@ TripMaKe-AI
 │   ├── database/
 │   │     └── db.py
 │   ├── tools/
-│   │     ├── flight.py
-│   │     ├── hotel.py
-│   │     └── search.py
+│         ├── flight.py
+│         ├── hotel.py
+│         └── search.py
 │
 ├── static/
 │   ├── css
