@@ -23,7 +23,7 @@ if not GROQ:
     raise ValueError("GROQ API KEY is missing ⚠️")
 
 ## LLM
-llm = ChatGroq(model="llama-3.3-70b-versatile", api_key=GROQ)
+llm = ChatGroq(model="openai/gpt-oss-120b", api_key=GROQ)
 
 
 ## Define State
