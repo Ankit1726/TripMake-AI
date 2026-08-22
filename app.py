@@ -5,17 +5,14 @@ from fastapi.responses import HTMLResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from pydantic import BaseModel
-
 from src.backend import run_travel_agent
 
 BASE_DIR = Path(__file__).resolve().parent
-
 app = FastAPI(
     title="Tripmake AI ✈️",
     description="LangGraph Multi-Agent Travel Planner with FastAPI Frontend",
     version="1.0.0",
 )
-
 app.mount("/static", StaticFiles(directory=str(BASE_DIR / "static")), name="static")
 templates = Jinja2Templates(directory=str(BASE_DIR / "templates"))
 
@@ -56,7 +53,6 @@ async def travel_planner(request_data: TravelRequest):
     except Exception as e:
         print(f"error: {e}")
         traceback.print_exc()
-
         return JSONResponse(
             status_code=500, content={"success": False, "error": str(e)}
         )
@@ -73,4 +69,4 @@ async def favicon():
 
 
 if __name__ == "__main__":
-    uvicorn.run("app:app", host="127.0.0.1", port=8000, reload=True)
+    uvicorn.run("app:app", host="0.0.0.0", port=8000, reload=True)
